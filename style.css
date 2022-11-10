@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Consolas,sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:bisque;
+}
+
+.inputBox {
+    position: relative;
+    width: 450px;
+}
+
+-inputBox h2{
+    font-size: 28px;
+    color:black;
+}
+
+span{
+    color:brown;
+
+}
+::placeholder {
+    color: #f5cac2; 
+}
+
+.inputBox input {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    border:none;
+    margin: 15px 0px 10px;
+    background
+}
