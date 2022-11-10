@@ -3,6 +3,8 @@ let age = prompt("How old are you? ");
 
 let ticketPrice = kilometers * 0.21 ;
 
+ticketPrice = (Math.round(ticketPrice * 100)/100).toFixed(2);
+
 if (age < 18) {
     console.log(ticketPrice * 80/100)
 }
